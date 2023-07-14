@@ -1,0 +1,13 @@
+{
+     "items":[
+        {
+              "sys":{"id":"1"},
+              "fields":{
+                "title":"Cloths",
+                "price":123.99,
+                "image":{"field":{"url":"images/cloth12.jpg"}}
+              }
+        }
+
+     ]
+}

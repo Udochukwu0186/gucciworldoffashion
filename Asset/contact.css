@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0px;
+    background-color: green;
+    background-image: url(/Pictures/gucci\ 1.jpg);
+    background-size: 30Px;
+}
+nav{
+    background-color: lime;
+    display: grid;
+    place-items: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(22, 189, 0);
+    transition: 0.2s ease-in;
+    font-size: 18px;
+}
+nav ul a :hover{
+    background-color: green;
+    color: white;
+}
+.contact-content{
+    width: 105.3%;
+    margin-top: -139px;
+    background-color: black;
+}
+.contact-content h1{
+    padding: 100px;
+    margin-left:400px;
+}
+.contact-content h1 span{
+    color: greenyellow;
+}
+.contact-middle{
+    flex-basis: 45%;
+}
+.contact-middle form{
+    width: 30%;
+}
+.contact-middle p{
+    margin-top:-5%;
+}
+form input,form textarea{
+    width: 100px;
+    border:0;
+    outline: none;
+    background: rgb(247,244,244);
+    padding: 15px;
+    margin: 15px 0;
+    color:aquamarine;
+    font-size: 10px;
+    border: 6px;
+    margin-left: 500px;
+}
+form input,form button{
+    margin-left: 500px;
+    height:50px;
+    width: 100px;
+}
+.button{
+    background: greenyellow;
+}
+.icons{
+    margin-left: 8%;
+    grid-column: auto;
+}
